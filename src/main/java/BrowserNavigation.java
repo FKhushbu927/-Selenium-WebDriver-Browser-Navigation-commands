@@ -15,5 +15,7 @@ public class BrowserNavigation {
         driver.findElement(By.linkText("Documentation")).click();
 
         driver.navigate().refresh();
+        driver.navigate().back();
+        driver.navigate().forward();
     }
 }
